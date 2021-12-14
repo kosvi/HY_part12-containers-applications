@@ -1,0 +1,70 @@
+Script started on 2021-12-14 12:14:28+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="186" LINES="45"]
+]0;ville@c42: /mnt/appData/github/part12-containers-applicationsville@c42:/mnt/appData/github/part12-containers-applications$ exitdocker exec -it todo-backend_mongo_1 bash[1@s[1@u[C[1@d[1@o[1@ 
+[sudo] password for ville: 
+]0;root@f1ca01a433a9: /root@f1ca01a433a9:/# 
+]0;root@f1ca01a433a9: /root@f1ca01a433a9:/# 
+]0;root@f1ca01a433a9: /root@f1ca01a433a9:/# 
+]0;root@f1ca01a433a9: /root@f1ca01a433a9:/# mongo -u root -p examl ple
+MongoDB shell version v5.0.5
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("aacf6fa0-2e51-414a-ae25-5bdda2dbac65") }
+MongoDB server version: 5.0.5
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+	https://docs.mongodb.com/
+Questions? Try the MongoDB Developer Community Forums
+	https://community.mongodb.com
+---
+The server generated these startup warnings when booting: 
+        2021-12-14T12:12:14.409+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> show dbs[3G[Jshow dbs[11G
+admin         0.000GB
+config        0.000GB
+local         0.000GB
+the_database  0.000GB
+> use the_database[3G[Juse the_database[19G
+switched to db the_database
+> show collections[3G[Jshow collections[19G
+todos
+> db.todo.find({})[3G[Jdb.todo.find({})[19G
+> [3G[Jdb.todo.find({})[19G[3G[Jdb.todo.find[1;34m([0m{})[18G[3G[Jdb.todo.find([1;34m{[0m})[17G[3G[Jdb.todo.find({[1;34m}[0m)[16G[3G[Jdb.todo.find({}[1;34m)[0m[15G[3G[Jdb.todo.find({})[14G[3G[Jdb.todo.find({})[13G[3G[Jdb.todo.find({})[12G[3G[Jdb.todo.find({})[11G[3G[Jdb.todo.find({})[10G[3G[Jdb.todos.find({})[11G[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("61b859f3136da272cfb7b062"), "text" : "Write code", "done" : true }
+{ "_id" : ObjectId("61b859f3136da272cfb7b063"), "text" : "Learn about containers", "done" : false }
+> db.todos.insertOne({text: "Increase the number of tools in my toolbelt", done: false });[3G[Jdb.todos.insertOne({text: "Increase the number of tools in my toolbelt", done: false });[91G
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("61b88b640c8d81512a2ec08e")
+}
+> [3G[Jdb.todos.insertOne({text: "Increase the number of tools in my toolbelt", done: false });[91G[3G[Jdb.todos.find({})[20G[3G[Jdb.todo.find({})[19G[3G[Jdb.todos.find({})[20G[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("61b859f3136da272cfb7b062"), "text" : "Write code", "done" : true }
+{ "_id" : ObjectId("61b859f3136da272cfb7b063"), "text" : "Learn about containers", "done" : false }
+{ "_id" : ObjectId("61b88b640c8d81512a2ec08e"), "text" : "Increase the number of tools in my toolbelt", "done" : false }
+> quit()[3G[Jquit()[9G
+]0;root@f1ca01a433a9: /root@f1ca01a433a9:/# 
+]0;root@f1ca01a433a9: /root@f1ca01a433a9:/# 
+]0;root@f1ca01a433a9: /root@f1ca01a433a9:/# exit
+exit
+]0;ville@c42: /mnt/appData/github/part12-containers-applicationsville@c42:/mnt/appData/github/part12-containers-applications$ exit
+exit
+
+Script done on 2021-12-14 12:18:35+00:00 [COMMAND_EXIT_CODE="0"]
