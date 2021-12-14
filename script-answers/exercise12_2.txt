@@ -1,0 +1,25 @@
+Script started on 2021-12-14 06:55:18+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="186" LINES="45"]
+]0;ville@c42: /mnt/appData/github/part12-containers-applicationsville@c42:/mnt/appData/github/part12-containers-applications$ sudo docker container run -it ubuntu bash
+[sudo] password for ville: 
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K7b1a6ab2e44d: Pulling fs layer [1B[1A[2K7b1a6ab2e44d: Downloading [>                                                  ]  294.1kB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading [========>                                          ]  4.717MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading [====================>                              ]  11.75MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading [======================>                            ]  12.91MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading [=================================>                 ]  19.32MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading [======================================>            ]  22.26MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Downloading [==============================================>    ]  26.39MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Verifying Checksum [1B[1A[2K7b1a6ab2e44d: Download complete [1B[1A[2K7b1a6ab2e44d: Extracting [>                                                  ]  294.9kB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting [======>                                            ]  3.834MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting [===========>                                       ]  6.783MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting [=================>                                 ]  9.732MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting [=====================>                             ]  12.39MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting [==============================>                    ]   17.4MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting [=====================================>             ]  21.23MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting [==========================================>        ]  24.18MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting [============================================>      ]  25.66MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting [=================================================> ]  28.31MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Extracting [==================================================>]  28.57MB/28.57MB[1B[1A[2K7b1a6ab2e44d: Pull complete [1BDigest: sha256:626ffe58f6e7566e00254b638eb7e0f3b11d4da9675088f4781a50ae288f3322
+Status: Downloaded newer image for ubuntu:latest
+]0;root@37ae388c1747: /root@37ae388c1747:/# [K]0;root@37ae388c1747: /root@37ae388c1747:/# 
+]0;root@37ae388c1747: /root@37ae388c1747:/# 
+]0;root@37ae388c1747: /root@37ae388c1747:/# 
+]0;root@37ae388c1747: /root@37ae388c1747:/# 
+]0;root@37ae388c1747: /root@37ae388c1747:/# 
+]0;root@37ae388c1747: /root@37ae388c1747:/# 
+]0;root@37ae388c1747: /root@37ae388c1747:/# 
+]0;root@37ae388c1747: /root@37ae388c1747:/# 
+]0;root@37ae388c1747: /root@37ae388c1747:/# mkdir /usr/[7P^C
+]0;root@37ae388c1747: /root@37ae388c1747:/# sudo mk[Kmkdir /usr/src/ao pp
+]0;root@37ae388c1747: /root@37ae388c1747:/# touch /use r/src/app/index.js
+]0;root@37ae388c1747: /root@37ae388c1747:/# [Krc  exit
+exit
+]0;ville@c42: /mnt/appData/github/part12-containers-applicationsville@c42:/mnt/appData/github/part12-containers-applications$ exit
+exit
+
+Script done on 2021-12-14 06:56:10+00:00 [COMMAND_EXIT_CODE="0"]
