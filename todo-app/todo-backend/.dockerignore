@@ -3,3 +3,5 @@
 node_modules
 Dockerfile
 docker*
+mongo_data
+redis_data
